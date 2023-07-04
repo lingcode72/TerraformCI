@@ -22,7 +22,7 @@ resource "random_string" "uniquestring" {
 }
 
 resource "azurerm_resource_group" "rg" {
-  name     = "lingResourceGroupJenkins"
+  name     = "ling-terraform-cloud"
   location = "francecentral"
 }
 
