@@ -9,6 +9,15 @@ terraform {
  
   }
 
+terraform {
+  cloud {
+    organization = "ling"
+
+    workspaces {
+      name = "TerraformCI"
+    }
+  }
+}
 
 provider "azurerm" {
   features {}
