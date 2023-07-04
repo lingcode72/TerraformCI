@@ -31,7 +31,7 @@ resource "random_string" "uniquestring" {
 }
 
 resource "azurerm_resource_group" "rg" {
-  name     = "ling-terraform-cloud2"
+  name     = "ling-terraform-cloud"
   location = "francecentral"
 }
 
